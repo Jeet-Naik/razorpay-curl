@@ -118,7 +118,8 @@ include('templates/header.php');
                 instruments: [
                   {
                     method: 'upi',
-                    flows: [ "collect","qr","intent"],
+                    // flows: ["intent"],
+                    // apps: ["bhim"]
                   },
                   {
                     method: 'wallet',
